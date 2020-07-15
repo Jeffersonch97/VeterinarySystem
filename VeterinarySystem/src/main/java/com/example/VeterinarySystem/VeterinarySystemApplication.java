@@ -8,6 +8,7 @@ public class VeterinarySystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(VeterinarySystemApplication.class, args);
+		System.out.println("");
 	}
 
 }
