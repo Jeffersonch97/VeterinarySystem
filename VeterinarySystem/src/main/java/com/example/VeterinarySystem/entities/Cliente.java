@@ -13,7 +13,6 @@ public class Cliente extends Persona {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private String correo;
-<<<<<<< HEAD
 
 	public String getCorreo() {
 		return correo;
@@ -22,8 +21,7 @@ public class Cliente extends Persona {
 	public void setCorreo(String correo) {
 		this.correo = correo;
 	}
-=======
->>>>>>> branch 'master' of https://github.com/Jeffersonch97/VeterinarySystem.git
+
 	
 	
 
