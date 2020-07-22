@@ -10,6 +10,7 @@ import javax.persistence.Table;
 @Table(name="Adminstrador")
 
 public class Administrador extends Persona {
+<<<<<<< HEAD
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private String Usuario;
@@ -22,5 +23,8 @@ public class Administrador extends Persona {
 		Usuario = usuario;
 	}
 	
+=======
+	   
+>>>>>>> branch 'master' of https://github.com/Jeffersonch97/VeterinarySystem.git
 
 }
