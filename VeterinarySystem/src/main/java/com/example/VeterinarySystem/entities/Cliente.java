@@ -13,7 +13,7 @@ public class Cliente extends Persona {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private String correo;
-	System.out.println("Prueba Numero 1");
+	
 	
 
 }

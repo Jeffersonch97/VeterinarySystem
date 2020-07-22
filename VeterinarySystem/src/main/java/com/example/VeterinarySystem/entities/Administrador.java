@@ -7,6 +7,6 @@ import javax.persistence.Table;
 @Table(name="Adminstrador")
 
 public class Administrador extends Persona {
-	System.out.println("Prueba Numero 1");
+	   
 
 }
