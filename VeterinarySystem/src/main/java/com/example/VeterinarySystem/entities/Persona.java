@@ -9,8 +9,17 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table (name="Persona")
+@Table(name="Persona")
 
 public class Persona {
+@Id
+@GeneratedValue(strategy=GenerationType.IDENTITY)
+private String Cedula;
+private String Nombre;
+private String Apellido;
+private String Genero;
+private String Usuario;
+private String Contrasenia;
+private String String;
 
 }
