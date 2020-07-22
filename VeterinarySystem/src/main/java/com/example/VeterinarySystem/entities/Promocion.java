@@ -9,5 +9,18 @@ public class Promocion {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private String Nombre;
 	private String Imagen;
+	public String getNombre() {
+		return Nombre;
+	}
+	public void setNombre(String nombre) {
+		Nombre = nombre;
+	}
+	public String getImagen() {
+		return Imagen;
+	}
+	public void setImagen(String imagen) {
+		Imagen = imagen;
+	}
+	
 
 }

@@ -13,6 +13,14 @@ public class Cliente extends Persona {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private String correo;
+
+	public String getCorreo() {
+		return correo;
+	}
+
+	public void setCorreo(String correo) {
+		this.correo = correo;
+	}
 	
 	
 

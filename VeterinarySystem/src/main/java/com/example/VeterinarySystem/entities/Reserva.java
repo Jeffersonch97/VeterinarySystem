@@ -42,6 +42,31 @@ public class Reserva {
 	public void setFecha_Ejecucion_Reserva(Date fecha_Ejecucion_Reserva) {
 		Fecha_Ejecucion_Reserva = fecha_Ejecucion_Reserva;
 	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getApellido() {
+		return apellido;
+	}
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+	public int getCantidad_mascotas() {
+		return cantidad_mascotas;
+	}
+	public void setCantidad_mascotas(int cantidad_mascotas) {
+		this.cantidad_mascotas = cantidad_mascotas;
+	}
+	public String getEstado() {
+		return estado;
+	}
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
+	
 	
 	
 }

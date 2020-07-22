@@ -14,4 +14,13 @@ public class Administrador extends Persona {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private String Usuario;
 
+	public String getUsuario() {
+		return Usuario;
+	}
+
+	public void setUsuario(String usuario) {
+		Usuario = usuario;
+	}
+	
+
 }
