@@ -18,6 +18,7 @@ public class Reserva {
 	public String apellido;
 	public int cantidad_mascotas;
 	public String estado;
+	
 	public String getCodigo_Reserva() {
 		return Codigo_Reserva;
 	}
