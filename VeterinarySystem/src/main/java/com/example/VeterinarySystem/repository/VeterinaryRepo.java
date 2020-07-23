@@ -1,4 +1,4 @@
-package repository;
+package com.example.VeterinarySystem.repository;
 
 import java.util.List;
 import org.springframework.data.repository.CrudRepository;
